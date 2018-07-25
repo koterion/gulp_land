@@ -1,0 +1,21 @@
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript">
+        function addScript(src) {
+            var script = document.createElement('script');
+            script.src = src;
+            script.async = false;
+            document.getElementsByTagName('body')[0].appendChild(script);
+        }
+
+        if (!window.jQuery) {
+            addScript("https://code.jquery.com/jquery-3.2.1.min.js");
+            addScript("./js/main.js");
+        } else {
+            addScript("./js/main.js");
+        }
+    </script>
+</body>
+</html>
