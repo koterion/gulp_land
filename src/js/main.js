@@ -1,5 +1,5 @@
-!(function( $ ) {
+!(function ($) {
 
-		//= components/cntr.js
+  //= components/cntr.js
 
-})( jQuery );
+})(jQuery)
